@@ -1,0 +1,293 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 12, 2016, 11:46:48 PM
+    Author     : sandeep
+*/
+
+
+.button{
+    width:100px;
+    background:#3399cc;
+    display:block;
+    margin:0 auto;
+    margin-top:1%;
+    padding:10px;
+    text-align:center;
+    text-decoration:none;
+    color:#fff;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+}
+
+
+.button:hover{
+    background:#2288bb;
+}
+
+
+#login{
+    width:400px;
+    margin:0 auto;
+    margin-top:8px;
+    margin-bottom:2%;
+    transition:opacity 1s;
+    -webkit-transition:opacity 1s;
+}
+
+
+#triangle{
+    width:0;
+    border-top:12x solid transparent;
+    border-right:12px solid transparent;
+    border-bottom:12px solid #3399cc;
+    border-left:12px solid transparent;
+    margin:0 auto;
+}
+
+#login h1{
+    background:#3399cc;
+    padding:20px 0;
+    font-size:140%;
+    font-weight:300;
+    text-align:center;
+    color:#fff;
+}
+.hi{
+    background:#3399cc;
+    padding:20px 0;
+    font-size:140%;
+    font-weight:300;
+    text-align:center;
+    color:#fff;
+}
+.label{
+    width:150px;
+    background:limegreen;
+    display:block;
+    margin:0 auto;
+    margin-top:1%;
+    padding:10px;
+    text-align:center;
+    text-decoration:none;
+    color:#fff;
+    cursor:default;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+}
+h1{
+    font-size: 60px;
+}
+.topcorner{
+    position:absolute;
+    top:20px;
+
+    right:130px;
+}
+.topcorner1{
+    position:absolute;
+    top:20px;
+    right:10px;
+}
+.topcornerl{
+    position:absolute;
+    top:20px;
+    left:10px;
+}
+.neon {
+    font-size: 30px;
+    color: black;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+        0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+        0 0 40px #A5F1FF;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12pt;
+    color: white;
+    background:#567;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+select {
+    background-color: transparent;
+    border: 1px solid;
+    height: 50px;
+    width: 400px;
+    color: #CCC;
+    font-size: 30px;
+    text-align-last: center;
+
+}
+select{
+    width: 400px;
+    height: 40px;
+    background:#fff;
+    margin-bottom:4%;
+    border:1px solid #ccc;
+    padding:2%;
+    font-family:'Open Sans',sans-serif;
+    font-size:95%;
+    color:#555;
+}
+select:focus {
+    width: 400px;
+    border-width: 2pt;
+    border-color:#3399cc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    outline:none;
+}
+option{
+    text-align: center;
+
+}
+
+input {
+
+    background-color: transparent;
+    border: 1px solid;
+    height: 50px;
+    width: 400px;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+
+}
+input:focus {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 20px;
+    border-width: 2pt;
+    border-color: #3399cc;
+    outline: none;
+}
+table {
+    width:50%;
+    margin:1em auto;
+    border: none;
+
+
+}
+th {
+    border: none;
+    
+    padding:.3em 1em;
+    text-align:center;
+
+}
+
+td {
+    border: none;
+    
+    padding:.3em 1em;
+    text-align:center;
+    font-size: medium;
+
+
+}
+
+
+
+button {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    border: none;
+    -webkit-border-radius: 21px;
+    border-radius: 21px;
+    font: normal 20px/normal "Antic", Helvetica, sans-serif;
+    color: white;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgba(0,253,200,0.5);
+    -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+    -webkit-transition: all 350ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+button:hover{
+    background:rgba(0,253,140,0.5);
+}
+button:focus{
+    outline:none;
+
+}
+
+
+.follow{
+    width: 300px;
+    height: 40px;
+    align-self: center;
+    align-content: center;
+    color: white;
+
+    font-size: 30px;
+}
+input[type=submit] {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    border: none;
+    -webkit-border-radius: 21px;
+    border-radius: 21px;
+    font: normal 20px/normal "Antic", Helvetica, sans-serif;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgba(0,225,0,0.4);
+    -webkit-box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.5) inset;
+    -webkit-transition: all 350ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+input[type=submit]:focus{
+
+    outline: none;
+}
+
+.fire {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 60px/normal "Anton", Helvetica, sans-serif;
+    color: rgb(0, 0, 255);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 0 0 20px rgb(254,252,201) , 10px -10px 30px rgb(254,236,133) , -20px -20px 40px rgb(255,174,52) , 20px -40px 50px rgb(236,118,12) , -20px -60px 60px rgb(205,70,6) , 0 -80px 70px rgb(151,55,22) , 10px -90px 80px rgb(69,27,14) ;
+} 
+
+label{
+    color: whitesmoke;
+}
